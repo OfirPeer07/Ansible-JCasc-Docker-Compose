@@ -1,5 +1,5 @@
 jenkins:
-  systemMessage: "\n\nThis is For CodeWizard..\n\n"
+  systemMessage: "\n\nHello, Welcome to 'Jenkins CASC Server'..\n\n"
 
   numExecutors: 1
   mode: NORMAL
