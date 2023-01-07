@@ -1,0 +1,31 @@
+---
+- name: Connecting to Hosts
+  hosts: all
+  become: true
+  tasks:
+    - name: Install Docker & Docker-Compose & Docker.io & Docker-Registry
+      ansible.builtin.apt:
+        name:
+          - docker
+          - docker.io
+          - docker-compose
+          - docker-registry
+        state: latest
+        update_cache: true
+
+    - name: Clone a github Ansible-JCasC-Docker-Compose
+      git:
+         repo: https://github.com/OfirPeer07/JCasc-Docker-Compose.git
+         dest: /home/ubuntu/jenkinsCasC/
+         clone: yes
+         update: yes
+
+    - name: Run docker-compose file & Create new users
+      docker_compose:
+        project_src: jenkinsCasC/
+        state: present
+      register: __docker_compose
+
+    - name: debug
+      debug:
+        var: __docker_compose
