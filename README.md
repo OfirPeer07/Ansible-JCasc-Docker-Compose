@@ -11,7 +11,7 @@ The Jenkins Configuration as Code (JCasC) feature defines Jenkins configuration 
 This essentially captures the configuration parameters and values that are used when configuring Jenkins from the web UI.
 
 #### **What is Docker?**
-Docker is a software platform that allows you to build, test, and deploy applications quickly. 
+Docker is a software platform that allows you to build, test, and deploy applications quickly.  
 Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
 
 #### **What is Docker-Compose?**
@@ -22,10 +22,10 @@ With Compose, we can create a YAML file to define the services and with a single
 Ansible is defined as an open-source, cross-platform tool for resource provisioning automation that DevOps professionals popularly use for continuous delivery of software code by taking advantage of an “infrastructure as code” approach.
 
 #### **What is Playbook? (ansible-playbook)**
-Ansible Playbooks are lists of tasks that automatically execute against hosts. 
+Ansible Playbooks are lists of tasks that automatically execute against hosts.  
 Groups of hosts form your Ansible inventory. 
-Each module within an Ansible Playbook performs a specific task. 
-Each module contains metadata that determines when and where a task is executed, as well as which user executes it.
+Each module within an Ansible Playbook performs a specific task.  
+Each module contains metadata that determines when and where a task is executed, as well as which user executes it. 
 
 --------------------------------------------------------------------------------------------
 
