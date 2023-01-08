@@ -1,6 +1,6 @@
 # ***Ansible Playbook & Jenkins CasC & Docker-Compose***
 
-![This is an image](https://i.ibb.co/swNGYRZ/ansible.png) ![This is an image](https://i.ibb.co/j34FMrK/pngwing-com-1.png) ![This is an image](https://i.ibb.co/C8BqmLr/jenkins.png)
+![This is an image](https://i.ibb.co/swNGYRZ/ansible.png#gh-light-mode-only) ![This is an image](https://i.ibb.co/j34FMrK/pngwing-com-1.png#gh-light-mode-only) ![This is an image](https://i.ibb.co/C8BqmLr/jenkins.png#gh-light-mode-only)
 
 #### **What is Jenkins?**
 Jenkins is an open source automation server.  
