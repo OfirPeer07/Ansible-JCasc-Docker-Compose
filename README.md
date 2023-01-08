@@ -36,7 +36,7 @@ The purpose of the file is to perform a sequence of operations, from a main comp
 
 Sequence:
 1. Install "Docker", "Docker-Compose", "Docker.io" and "Docker-Registry".
-2. Clone a repository form my "GitHub" to the remote computers (clients) in order to get a "docker-compose.yml" file.
+2. Clone a repository form my "GitHub" to the remote computers (hosts) in order to get a "docker-compose.yml" file.
 3. Running the "docker-compose.yml" file.
 
 What this Docker-Compose file do?
