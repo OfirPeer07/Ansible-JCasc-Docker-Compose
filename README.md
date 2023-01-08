@@ -1,5 +1,6 @@
 # ***Ansible Playbook & Jenkins CasC & Docker-Compose***
-![This is an image](https://iili.io/HASroKJ.png)
+
+![This is an image](https://i.ibb.co/swNGYRZ/ansible.png) ![This is an image](https://i.ibb.co/j34FMrK/pngwing-com-1.png) ![This is an image](https://i.ibb.co/C8BqmLr/jenkins.png)
 
 #### **What is Jenkins?**
 Jenkins is an open source automation server.  
@@ -43,6 +44,3 @@ What this Docker-Compose file do?
 + Build Jenkins Image (2.332.2) with "Dockerfile".
 + Setting up a "Jenkins" server with the "Configuration as a Code" plugin  with "plugins_extra.txt".
 + Create users with a predefined password with "jenkins.yaml".
-
-
-
