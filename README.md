@@ -43,4 +43,4 @@ What this Docker-Compose file do?
 
 + Build Jenkins Image (2.332.2) with "Dockerfile".
 + Setting up a "Jenkins" server with the "Configuration as a Code" plugin  with "plugins_extra.txt".
-+ Create users with a predefined password with "jenkins.yaml".
++ Creating demo users with a predefined password with "jenkins.yaml".
