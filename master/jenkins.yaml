@@ -11,13 +11,15 @@ jenkins:
       allowsSignup: false
       users:
         - id: admin
-          password: 123456
+          password: admin
         - id: ofir
-          password: 0000
+          password: Pa33W0RD
+          # Users created for DEMO only - Recommended to use SSH Username with private key OR Secret file for high security!
 
   authorizationStrategy:
     loggedInUsersCanDoAnything:
       allowAnonymousRead: false
+
 
   # Enable CSRF
   crumbIssuer:
