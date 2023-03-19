@@ -31,7 +31,7 @@ Each module contains metadata that determines when and where a task is executed,
 
 ![This is an image](https://i.ibb.co/9ZZGqNJ/wp4399607-removebg.png)
 
-I wrote an automation file (Playbook) using "Ansible". 
+I wrote an automation file (Playbook) using "Ansible".  
 The purpose of the file is to perform a sequence of operations, from a main computer (server) to remote computers (hosts) by running the automation file.  
 
 Sequence:
