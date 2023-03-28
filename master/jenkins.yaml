@@ -11,9 +11,9 @@ jenkins:
       allowsSignup: false
       users:
         - id: admin
-          password: admin
+          password: 123456
         - id: ofir
-          password: Pa33W0RD
+          password: 0000
           # Users created for DEMO only - Recommended to use SSH Username with private key OR Secret file for high security!
 
   authorizationStrategy:
