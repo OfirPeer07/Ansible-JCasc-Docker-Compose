@@ -15,7 +15,7 @@
 
     - name: Clone a github Ansible-JCasC-Docker-Compose
       git:
-         repo: https://github.com/OfirPeer07/Ansible-JCasc-Docker-Compose.git
+         repo: https://github.com/OfirPeer07/ansible-jcasc-docker-compose.git
          dest: /home/ubuntu/jenkinsCasC/
          clone: yes
          update: yes
